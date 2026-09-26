@@ -1,0 +1,4 @@
+#crontab -e
+# Abre o gerenciador de cron para a execução dos cronômetrados
+crontab -l > cron-tab
+#sudo cp /var/spool/cron/crontabs/usuario cron-tab

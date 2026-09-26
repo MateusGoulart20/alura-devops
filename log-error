@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Mensagens de erro - $(date)" >> /home/usuario/gerados/log_monitorado.txt
+tail -n 5 /var/log/syslog | grep "error" >> /home/usuario/gerados/log_monitorado.txt

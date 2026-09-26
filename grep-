@@ -1,0 +1,2 @@
+cat novo.txt | grep "padrão"
+#pegar um padrão em um texto
